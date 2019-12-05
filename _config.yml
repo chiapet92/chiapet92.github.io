@@ -32,8 +32,7 @@ github_username:  chiapet92
 # Build Settings
 sass:
   sass_dir: _sass
+  style: :compressed
 include: ['_pages']
 kramdown:
   input: GFM
-
-theme: jekyll-theme-minimal
