@@ -25,13 +25,15 @@ pre {
 }
 
 .square {
-  width:500px;
-  height:500px;
-  background:greenyellow;
+  width:300px;
+  height:400px;
+  // background:greenyellow;
+  background-image: url("../nika.jpg");
   display: table; 
 }
 
 .square text {
+  color: greenyellow;
   display: table-cell; 
   vertical-align: middle; 
   text-align: center; 
