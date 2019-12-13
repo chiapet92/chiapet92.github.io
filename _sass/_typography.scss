@@ -21,40 +21,70 @@ pre {
     monospace;
   background-color: #2b2b2b;
   color: #fff;
-  padding: 0.25em;
+  padding: 0.25e
+  m;
 }
 
-.square {
-  width:300px;
-  height:400px;
-  // background:greenyellow;
-  background-image: url("../nika.jpg");
-  display: table; 
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  text-decoration: underline;
 }
 
-.square text {
-  color: greenyellow;
-  display: table-cell; 
-  vertical-align: middle; 
-  text-align: center; 
+p,
+ul {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #333;
 }
 
-.square left {
-  position : absolute;
-  // transform: translate(20px, 20px);
-  top: 155px;
-  left: 75px;
-  width: 40px;
-  height: 40px;
-  background-image: url("../awesome-face-transparent2.png");
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+}
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 2.7em;
+}
+h3 {
+  font-size: 2.3em;
+}
+h4 {
+  font-size: 1.9em;
 }
 
-.square right {
-  position : absolute;
-  // transform: translate(20px, 20px);
-  top: 155px;
-  left: 175px;
-  width: 40px;
-  height: 40px;
-  background-image: url("../awesome-face-transparent2.png");
+.wrapper {
+
+}
+
+nav ul,
+footer ul {
+  font-size: 1em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+// ID
+// #bob {
+//   font-size: 1em;
+// }
+
+// class
+// .
+nav ul li,
+footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: 0.8em;
 }

@@ -31,6 +31,6 @@ github_username:  chiapet92
 # Build Settings
 sass:
   style: compressed
-# include: ['_pages']
-kramdown:
-  input: GFM
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+include: ["_pages"]
