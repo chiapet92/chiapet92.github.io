@@ -1,2 +1,6 @@
-# chiapet92.github.io
-Personal GitHub Pages domain @ https://chiapet92.github.io/ until I can figure out how to hook it up with my custom domain of merkle.dev
+# merkle.dev
+Personal site. 
+
+## To Run
+1. Install Jekyll using the instructions [here](https://jekyllrb.com/)
+2. Run `jekyll serve`
