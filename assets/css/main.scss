@@ -32,10 +32,10 @@ body {
 }
 .image-gallery li a span {
   display: block;
-  // text-overflow: ellipsis;
-  // overflow: hidden;
-  text-align: center;
-  white-space: wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  // text-align: center;
+  white-space: nowrap;
   padding: 3px 0;
 }
 .image-gallery li a img {
